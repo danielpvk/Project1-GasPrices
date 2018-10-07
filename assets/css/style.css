@@ -1,0 +1,73 @@
+#map {  
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    margin: 0px 0px 0px 15px;
+    height: 100%;
+}
+header, .fixed-header {
+    width: 40%;
+    position: fixed;
+    top:0;
+    right: 0;
+    background: white;
+    z-index: 999;
+    padding: 16px !important;
+    color: black;
+}
+#searchZC {
+    background: rgb(2, 83, 83);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#headerBG {
+    right: 0;
+    height: 250px;
+    max-width: 100%;
+}
+#searchZip {
+    z-index: 9998;
+}
+#sidebar2 {
+    margin-top: 440px;
+    margin-bottom: 100px;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    padding-right: 16px !important;
+    width: 40%;    
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/*table td:nth-child(even){background-color: #f2f2f2;}*/
+table tr:hover {background-color: lightgray;}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.w3-jumbo {
+    font-size: 36px !important;
+}
